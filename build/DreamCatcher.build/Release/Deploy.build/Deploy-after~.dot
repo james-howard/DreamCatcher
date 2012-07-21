@@ -1,0 +1,17 @@
+digraph Deploy {
+   size = "10.000000,8.500000";
+   concentrate = false;
+
+   node [ shape = box, style = filled, color = "0.3 0.5 0.6", fillcolor = "0.3 0.2 0.9", fontname = "Monaco", fontsize = "9" ];
+   n00001 [ label = "<Deploy.build/Script-4069AA8908B8047C004F0BE6.sh>[A]\n91e27337a234a2306a99ec45d601a0e1\nDepsUpdated", color = "0.1 0.5 0.5", fillcolor = "0.1 0.2 0.9", peripheries = 3 ];
+   n00002 [ label = "Deploy.build/Script-4069AA8908B8047C004F0BE6.sh\n00000000000000000000000000000000\nMissing", color = "0.1 0.5 0.5", fillcolor = "0.1 0.2 0.9" ];
+
+   node [ shape = box, style = "filled,bold", color = "0.7 0.5 0.7", fillcolor = "0.7 0.2 1.0", fontname = "Monaco", fontsize = "9" ];
+   c00001 [ label = "PhaseScriptExecution Script-4069AA8908B8047C004F0BE6.sh <wt:1>\nwaitCount: 0\n00000000000000000000000000000000\n^ 91e27337a234a2306a99ec45d601a0e1\n= 91e27337a234a2306a99ec45d601a0e1\nIndirectlyNeedsToRun\nNeeds to run because at least one of the inputs to the command are scheduled to be updated.", color = "0.6 0.5 0.7", fillcolor = "0.6 0.2 1.0" ];
+
+   edge [ style = solid, color = black, arrowhead = none, arrowtail = normal ];
+   n00001 -> { c00001 };
+   c00001 -> { n00002 };
+
+   edge [ style = solid, color = gray60, arrowhead = none, arrowtail = normal ];
+}

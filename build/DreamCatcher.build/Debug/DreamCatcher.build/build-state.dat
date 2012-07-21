@@ -1,0 +1,1438 @@
+TDreamCatcher
+v7
+r0
+t300949328.074688
+cCheck dependencies
+cProcessInfoPlistFile /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Info.plist DreamCatcher-Info.plist
+cPBXCp build/Debug/DreamCatcher.app/Contents/Frameworks/AGRegex.framework AGRegex.framework
+cStripNIB /Users/james/Programming/Cocoa/DreamCatcher/English.lproj/MainMenu.nib
+cStripNIB /Users/james/Programming/Cocoa/DreamCatcher/English.lproj/MyDocument.nib
+cCpResource build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns DreamCatcher.icns
+cCpResource build/Debug/DreamCatcher.app/Contents/Resources/Credits.rtf Credits.rtf
+cCopyPlistFile /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher-Info.plist DreamCatcher-Info.plist
+cStripNIB /Users/james/Programming/Cocoa/DreamCatcher/English.lproj/Preferences.nib
+cProcessPCH /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/MyDocument.o /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/GUIMain.o /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Page.o /Users/james/Programming/Cocoa/DreamCatcher/Page.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spider.o /Users/james/Programming/Cocoa/DreamCatcher/Spider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ConditionVariable.o /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Response.o /Users/james/Programming/Cocoa/DreamCatcher/Response.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ErrorResponse.o /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/FoundationWebClient.o /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/UnknownTypeResponse.o /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/RobotsTxt.o /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCProperties.o /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spellchecker.o /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/PreferencesController.o /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCTableView.o /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/EntityReference.o /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCUtil.o /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFileTypeDrag.o /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFolderDrag.o /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/NSAppleScript+HandlerCalls.o /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/TidyHTMLParser.o /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/MacOS/DreamCatcher normal i386
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/correctingerrors.html" "English.lproj/English.lproj/DreamCatcher Help/correctingerrors.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Dictionaries.html" "English.lproj/English.lproj/DreamCatcher Help/Dictionaries.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/DreamCatcher Help idx" "English.lproj/English.lproj/DreamCatcher Help/DreamCatcher Help idx"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/DreamCatcher Help.helpindex" "English.lproj/English.lproj/DreamCatcher Help/DreamCatcher Help.helpindex"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/empty.html" "English.lproj/English.lproj/DreamCatcher Help/empty.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/help.css" "English.lproj/English.lproj/DreamCatcher Help/help.css"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/ignoringerrors.html" "English.lproj/English.lproj/DreamCatcher Help/ignoringerrors.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Introduction.html" "English.lproj/English.lproj/DreamCatcher Help/Introduction.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/modifyingthedictionary.html" "English.lproj/English.lproj/DreamCatcher Help/modifyingthedictionary.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/preferences.html" "English.lproj/English.lproj/DreamCatcher Help/preferences.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Reference.html" "English.lproj/English.lproj/DreamCatcher Help/Reference.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/spellchecking.html" "English.lproj/English.lproj/DreamCatcher Help/spellchecking.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/top.html" "English.lproj/English.lproj/DreamCatcher Help/top.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/usingdreamcatcher.html" "English.lproj/English.lproj/DreamCatcher Help/usingdreamcatcher.html"
+cPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/usingdreamcatcherframe.html" "English.lproj/English.lproj/DreamCatcher Help/usingdreamcatcherframe.html"
+cPBXCp build/Debug/DreamCatcher.app/Contents/Resources/HelpImages/Icon.png English.lproj/HelpImages/Icon.png
+cPBXCp build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns DreamCatcher.icns
+cTouch /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004B7E366000000000000000EE
+t1266562656
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+c000000004864BB88000000000000170F
+t1214561160
+s5903
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/CoreFoundation.framework/Headers/CoreFoundation.h
+c00000000486499690000000000000942
+t1214552425
+s2370
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004864A1C900000000000012EE
+t1214554569
+s4846
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSObject.h
+c000000004864A1CB0000000000000CD5
+t1214554571
+s3285
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+c000000004864A1CC000000000000049D
+t1214554572
+s1181
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Quartz.framework/Headers/Quartz.h
+c0000000047BB1D140000000000000100
+t1203445012
+s256
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/WebKit.framework/Headers/WebKit.h
+c000000004864C63A0000000000000957
+t1214563898
+s2391
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/libkern/OSAtomic.h
+c0000000047BA993000000000000024B9
+t1203411248
+s9401
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/pthread.h
+c0000000047BA9932000000000000380F
+t1203411250
+s14351
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+c000000004BC13513000000000077DFF0
+t1270953235
+s7856112
+
+N/System/Library/Frameworks/Quartz.framework/Quartz
+c000000004A1249D4000000000000A5F0
+t1242712532
+s42480
+
+N/System/Library/Frameworks/WebKit.framework/WebKit
+c000000004C0C24EF00000000005BB7C0
+t1275864303
+s6010816
+
+N/Users/james/Programming/Cocoa/DreamCatcher/AGRegex.framework
+c000000004375F0D600000000000000CC
+t1131802838
+s204
+
+N/Users/james/Programming/Cocoa/DreamCatcher/AGRegex.framework/AGRegex
+c000000004375F0D60000000000056520
+t1131802838
+s353568
+
+N/Users/james/Programming/Cocoa/DreamCatcher/AGRegex.framework/Headers/AGRegex.h
+c000000004375F0CD0000000000003113
+t1131802829
+s12563
+i<Foundation/NSObject.h>
+i<Foundation/NSRange.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.h
+c0000000042FED13C00000000000004FA
+t1123995964
+s1274
+i<Cocoa/Cocoa.h>
+i<pthread.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m
+c000000004470A11E0000000000000928
+t1148231966
+s2344
+i"ConditionVariable.h"
+i<libkern/OSAtomic.h>
+i<pthread.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Credits.rtf
+c0000000043782C640000000000000187
+t1131949156
+s391
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DCProperties.h
+c0000000042FE420C000000000000010D
+t1123959308
+s269
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m
+c00000000472D0BC40000000000000439
+t1194134468
+s1081
+i"DCProperties.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DCTableView.h
+c000000004307C5F2000000000000008F
+t1124582898
+s143
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m
+c000000004307C65300000000000004EA
+t1124582995
+s1258
+i"DCTableView.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DCUtil.h
+c0000000043274BDF0000000000000112
+t1126648799
+s274
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m
+c0000000043274F77000000000000033E
+t1126649719
+s830
+i"DCUtil.h"
+i"DCProperties.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.h
+c000000003F43DD42000000000000039B
+t1061412162
+s923
+i<Foundation/Foundation.h>
+i"DSFolderDrag.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m
+c000000004374F9D50000000000000CA8
+t1131739605
+s3240
+i"DSFileTypeDrag.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.h
+c000000004374F21B0000000000000358
+t1131737627
+s856
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m
+c000000004C3FE4170000000000001E55
+t1279255575
+s7765
+i"DSFolderDrag.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DreamCatcher-Info.plist
+c000000004470CD010000000000000851
+t1148243201
+s2129
+
+N/Users/james/Programming/Cocoa/DreamCatcher/DreamCatcher.icns
+c0000000042FFA978000000000000C2E4
+t1124051320
+s49892
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/Dictionaries.html
+c00000000430C806400000000000009BF
+t1124892772
+s2495
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/DreamCatcher Help idx
+c00000000430211B40000000000003000
+t1124209076
+s12288
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/DreamCatcher Help.helpindex
+c00000000430211B400000000000039AA
+t1124209076
+s14762
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/Introduction.html
+c00000000437824740000000000000733
+t1131947124
+s1843
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/Reference.html
+c0000000043C1FCB40000000000000C43
+t1136786612
+s3139
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/correctingerrors.html
+c0000000043782B1A00000000000011D9
+t1131948826
+s4569
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/empty.html
+c0000000042FB9FEA0000000000000000
+t1123786730
+s0
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/help.css
+c0000000042EFC0B100000000000009A6
+t1123008689
+s2470
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/ignoringerrors.html
+c0000000043782581000000000000061E
+t1131947393
+s1566
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/modifyingthedictionary.html
+c00000000437829310000000000000544
+t1131948337
+s1348
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/preferences.html
+c0000000043782A470000000000000ECB
+t1131948615
+s3787
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/spellchecking.html
+c00000000437827520000000000000D84
+t1131947858
+s3460
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/top.html
+c00000000437823670000000000000473
+t1131946855
+s1139
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/usingdreamcatcher.html
+c0000000043781DF0000000000000031B
+t1131945456
+s795
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/English.lproj/DreamCatcher Help/usingdreamcatcherframe.html
+c00000000437825CB000000000000022F
+t1131947467
+s559
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/HelpImages/Icon.png
+c0000000042FFB6060000000000006591
+t1124054534
+s26001
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/MainMenu.nib
+c0000000043753CF80000000000000110
+t1131756792
+s272
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/MyDocument.nib
+c0000000042FFB71500000000000000CC
+t1124054805
+s204
+
+N/Users/james/Programming/Cocoa/DreamCatcher/English.lproj/Preferences.nib
+c00000000444873850000000000000110
+t1145598853
+s272
+
+N/Users/james/Programming/Cocoa/DreamCatcher/EntityReference.h
+c000000004308AA280000000000000089
+t1124641320
+s137
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m
+c000000004308B41C00000000000055CB
+t1124643868
+s21963
+i"EntityReference.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.h
+c0000000042FE420C000000000000015A
+t1123959308
+s346
+i<Cocoa/Cocoa.h>
+i"Response.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m
+c0000000042FE420C00000000000001A8
+t1123959308
+s424
+i"ErrorResponse.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.h
+c0000000044450F2E000000000000049C
+t1145376558
+s1180
+i<Cocoa/Cocoa.h>
+i"WebClient.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m
+c000000004C3FE4590000000000003FD2
+t1279255641
+s16338
+i"FoundationWebClient.h"
+i<Quartz/Quartz.h>
+i<AGRegex/AGRegex.h>
+i<CoreFoundation/CoreFoundation.h>
+i"ErrorResponse.h"
+i"UnknownTypeResponse.h"
+i"Page.h"
+i"DCProperties.h"
+i"EntityReference.h"
+i"DCUtil.h"
+i"TidyHTMLParser.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m
+c0000000042FE420C0000000000000078
+t1123959308
+s120
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.h
+c00000000437504440000000000000609
+t1131742276
+s1545
+i<Cocoa/Cocoa.h>
+i"ProgressListener.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m
+c000000004C3FE43000000000000073B8
+t1279255600
+s29624
+i<WebKit/WebKit.h>
+i"MyDocument.h"
+i"Spider.h"
+i"Spellchecker.h"
+i"Page.h"
+i"DCProperties.h"
+i"PreferencesController.h"
+i"NSAppleScript+HandlerCalls.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.h
+c00000000407CCC850000000000000284
+t1081920645
+s644
+i<Foundation/Foundation.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m
+c0000000043752305000000000000078F
+t1131750149
+s1935
+i"NSAppleScript+HandlerCalls.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Page.h
+c0000000042FE420C00000000000000C6
+t1123959308
+s198
+i<Cocoa/Cocoa.h>
+i"Response.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Page.m
+c0000000043023A7D00000000000001B5
+t1124219517
+s437
+i"Page.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.h
+c00000000444872350000000000000274
+t1145598517
+s628
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m
+c000000004448745200000000000014DF
+t1145599058
+s5343
+i"PreferencesController.h"
+i"DCProperties.h"
+i"Spellchecker.h"
+i"DSFileTypeDrag.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/ProgressListener.h
+c0000000042FE420C0000000000000092
+t1123959308
+s146
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Response.h
+c0000000042FE420C0000000000000089
+t1123959308
+s137
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Response.m
+c0000000042FE420C0000000000000118
+t1123959308
+s280
+i"Response.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.h
+c0000000042FE420C0000000000000298
+t1123959308
+s664
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m
+c000000004339705100000000000013C2
+t1127837777
+s5058
+i"RobotsTxt.h"
+i<AGRegex/AGRegex.h>
+i"DCProperties.h"
+i"DCUtil.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.h
+c000000004308C3CE0000000000000356
+t1124647886
+s854
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m
+c000000004C3FE7260000000000001443
+t1279256358
+s5187
+i"Spellchecker.h"
+i"Page.h"
+i"Spider.h"
+i"DCProperties.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Spider.h
+c0000000042FED441000000000000060A
+t1123996737
+s1546
+i<Cocoa/Cocoa.h>
+i"WebClient.h"
+i"ProgressListener.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/Spider.m
+c000000004C3FE7CB00000000000024D0
+t1279256523
+s9424
+i"Spider.h"
+i"ConditionVariable.h"
+i"Response.h"
+i"Page.h"
+i"FoundationWebClient.h"
+i"RobotsTxt.h"
+i"DCProperties.h"
+i<libkern/OSAtomic.h>
+i<pthread.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.h
+c0000000044450DD800000000000001BE
+t1145376216
+s446
+i<Cocoa/Cocoa.h>
+i"FoundationWebClient.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m
+c000000004470A2C20000000000000CFA
+t1148232386
+s3322
+i"TidyHTMLParser.h"
+i"DCProperties.h"
+i"Page.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.h
+c0000000042FE420C000000000000016D
+t1123959308
+s365
+i<Cocoa/Cocoa.h>
+i"Response.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m
+c0000000042FE420C00000000000001F8
+t1123959308
+s504
+i"UnknownTypeResponse.h"
+
+N/Users/james/Programming/Cocoa/DreamCatcher/WebClient.h
+c0000000042FE420C0000000000000264
+t1123959308
+s612
+i<Cocoa/Cocoa.h>
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app
+t1279256524
+s102
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Frameworks/AGRegex.framework
+t1145376119
+s204
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Info.plist
+t1279255327
+s2120
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/MacOS/DreamCatcher
+t1279256524
+s151432
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/PkgInfo
+t1279255327
+s8
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/Credits.rtf
+t1145376119
+s391
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Dictionaries.html
+t1145376187
+s2495
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/DreamCatcher Help idx
+t1145376187
+s12288
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/DreamCatcher Help.helpindex
+t1145376187
+s14762
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Introduction.html
+t1145376187
+s1843
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Reference.html
+t1145376187
+s3139
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/correctingerrors.html
+t1145376187
+s4569
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/empty.html
+t1145376187
+s0
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/help.css
+t1145376187
+s2470
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/ignoringerrors.html
+t1145376187
+s1566
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/modifyingthedictionary.html
+t1145376187
+s1348
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/preferences.html
+t1145376187
+s3787
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/spellchecking.html
+t1145376187
+s3460
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/top.html
+t1145376187
+s1139
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/usingdreamcatcher.html
+t1145376187
+s795
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/usingdreamcatcherframe.html
+t1145376187
+s559
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher-Info.plist
+t1279255328
+s2129
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns
+t1124661278
+s49892
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/English.lproj/MainMenu.nib
+t1145376119
+s238
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/English.lproj/MyDocument.nib
+t1124661263
+s170
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/English.lproj/Preferences.nib
+t1145599158
+s238
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/HelpImages/Icon.png
+t1145376187
+s26001
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ConditionVariable.o
+t1279255330
+s13092
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCProperties.o
+t1279255330
+s9628
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCTableView.o
+t1279255330
+s19356
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCUtil.o
+t1279255330
+s7628
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFileTypeDrag.o
+t1279255330
+s25640
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFolderDrag.o
+t1279255583
+s37064
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DreamCatcher.LinkFileList
+c000000004C3FE31F0000000000000A23
+t1279255327
+s2595
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/EntityReference.o
+t1279255330
+s43568
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ErrorResponse.o
+t1279255330
+s7524
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/FoundationWebClient.o
+t1279255642
+s37860
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/GUIMain.o
+t1279255330
+s4944
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/MyDocument.o
+t1279255607
+s85112
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/NSAppleScript+HandlerCalls.o
+t1279255330
+s8804
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Page.o
+t1279255330
+s8564
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/PreferencesController.o
+t1279255330
+s32724
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Response.o
+t1279255330
+s7840
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/RobotsTxt.o
+t1279255330
+s16132
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spellchecker.o
+t1279256524
+s27620
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spider.o
+t1279256524
+s30640
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/TidyHTMLParser.o
+t1279255331
+s16668
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/UnknownTypeResponse.o
+t1279255330
+s8144
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/ConditionVariable.plist
+t1279255342
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DCProperties.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DCTableView.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DCUtil.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DSFileTypeDrag.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DSFolderDrag.plist
+t1279255343
+s28622
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/EntityReference.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/ErrorResponse.plist
+t1279255342
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/FoundationWebClient.plist
+t1279255343
+s6584
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/GUIMain.plist
+t1279255342
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/MyDocument.plist
+t1279255343
+s28350
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/NSAppleScript+HandlerCalls.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Page.plist
+t1279255342
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/PreferencesController.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Response.plist
+t1279255342
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/RobotsTxt.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Spellchecker.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Spider.plist
+t1279255343
+s10506
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/TidyHTMLParser.plist
+t1279255343
+s276
+
+N/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/UnknownTypeResponse.plist
+t1279255343
+s276
+
+N/var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h.pth
+t1279255342
+s8592768
+
+N/var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h.gch
+t1279255330
+s53714736
+
+NDreamCatcher-Info.plist
+c000000004470CD010000000000000851
+t1148243201
+s2129
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m
+s300948142.755243
+e300948142.989619
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m
+lSLF07#2@71"Analyze /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m300948142#300948142#0(0"0(0#0#63"/Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m8609926624#1312"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/ConditionVariable.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m
+s300948142.990323
+e300948143.145134
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m
+lSLF07#2@66"Analyze /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m300948142#300948143#0(0"0(0#0#58"/Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m8608691488#1302"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DCProperties.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m
+s300948143.039640
+e300948143.187600
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m
+lSLF07#2@65"Analyze /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m300948143#300948143#0(0"0(0#0#57"/Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m8610333312#1300"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DCTableView.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m
+s300948143.145239
+e300948143.294887
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m
+lSLF07#2@60"Analyze /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m300948143#300948143#0(0"0(0#0#52"/Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m8608646880#1290"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DCUtil.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m
+s300948143.154061
+e300948143.310126
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m
+lSLF07#2@68"Analyze /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m300948143#300948143#0(0"0(0#0#60"/Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m8607935648#1306"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DSFileTypeDrag.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m
+s300948143.169768
+e300948143.334978
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m
+o/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:75:9:{75:10-75:23}: warning: Incorrect decrement of the reference count of an object that is not owned at this point by the caller
+o         [displayString release];
+o         ^~~~~~~~~~~~~~
+o/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:76:26: warning: Potential leak of an object allocated on line 76
+o         displayString = [[substring stringByAppendingString: @"..."] retain];
+o                          ^
+o2 warnings generated.
+lSLF07#2@66"Analyze /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m300948143#300948143#0(501"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:75:9:{75:10-75:23}: warning: Incorrect decrement of the reference count of an object that is not owned at this point by the caller         [displayString release];         ^~~~~~~~~~~~~~/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:76:26: warning: Potential leak of an object allocated on line 76         displayString = [[substring stringByAppendingString: @"..."] retain];                          ^2 warnings generated.2(0@101"Incorrect decrement of the reference count of an object that is not owned at this point by the caller300948143#18446744073709551615#0#12(17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#45#5#45#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#53#5#53#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#53#5#53#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#60#3#60#3#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#60#3#60#3#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#63#5#63#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#63#5#63#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#65#2#65#2#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#65#2#65#2#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#66#3#66#3#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#66#3#66#3#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#66#19#66#42#21@82"Method returns an Objective-C object with a +0 retain count (non-owning reference)300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#66#19#0#0#0"1(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#66#19#66#42#82"Method returns an Objective-C object with a +0 retain count (non-owning reference)17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#66#19#66#42#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#70#5#70#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#70#5#70#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#71#5#71#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#71#5#71#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#73#9#73#9#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#73#9#73#9#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#75#9#75#31#21@101"Incorrect decrement of the reference count of an object that is not owned at this point by the caller300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#75#9#0#0#0"1(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#75#10#75#22#101"Incorrect decrement of the reference count of an object that is not owned at this point by the caller6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#75#9#0#0#36"Memory (Core Foundation/Objective-C)0(11"Bad release0@48"Potential leak of an object allocated on line 76300948143#18446744073709551615#0#16(17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#45#5#45#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#53#5#53#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#53#5#53#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#60#3#60#3#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#60#3#60#3#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#63#5#63#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#63#5#63#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#65#2#65#2#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#65#2#65#2#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#68#3#68#3#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#68#3#68#3#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#70#5#70#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#70#5#70#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#71#5#71#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#71#5#71#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#73#9#73#9#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#73#9#73#9#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#9#76#9#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#9#76#9#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#26#76#68#21@82"Method returns an Objective-C object with a +0 retain count (non-owning reference)300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#26#0#0#0"1(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#26#76#68#82"Method returns an Objective-C object with a +0 retain count (non-owning reference)17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#26#76#68#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#25#76#76#21@65"Reference count incremented. The object now has a +1 retain count300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#25#0#0#0"2(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#25#76#76#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#26#76#68#65"Reference count incremented. The object now has a +1 retain count17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#76#25#76#76#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#80#5#80#5#17@0"300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#0"0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#0#0#0#0#1(3@6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#80#5#80#5#6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#85#10#85#10#21@113"Object allocated on line 76 is no longer referenced after this point and has a retain count of +1 (object leaked)300948143#18446744073709551615#0#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#85#10#0#0#0"1(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#85#10#85#10#113"Object allocated on line 76 is no longer referenced after this point and has a retain count of +1 (object leaked)6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m153432647#85#10#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m8607011712#1302"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/DSFolderDrag.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m
+s300948143.137533
+e300948143.292942
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m
+lSLF07#2@69"Analyze /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m300948143#300948143#0(0"0(0#0#61"/Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m8609949824#1308"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/EntityReference.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m
+s300948142.756924
+e300948142.990106
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m
+lSLF07#2@67"Analyze /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m300948142#300948142#0(0"0(0#0#59"/Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m8608434400#1304"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/ErrorResponse.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m
+s300948142.761728
+e300948143.689335
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m
+o/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m:147:9: warning: Potential leak of an object allocated on line 147
+o         [[NSString alloc] initWithFormat: @"%@", 
+o         ^
+o1 warning generated.
+lSLF07#2@73"Analyze /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m300948142#300948143#0(215"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m:147:9: warning: Potential leak of an object allocated on line 147         [[NSString alloc] initWithFormat: @"%@",          ^1 warning generated.1(0@49"Potential leak of an object allocated on line 147300948143#18446744073709551615#0#6(17@0"300948143#18446744073709551615#0#0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#0"0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#1(3@6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#135#2#135#2#6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#146#5#146#5#17@0"300948143#18446744073709551615#0#0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#0"0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#1(3@6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#146#5#146#5#6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#147#9#148#66#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)300948143#18446744073709551615#0#0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#147#9#0#0#0"1(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#147#9#148#66#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"300948143#18446744073709551615#0#0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#0"0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#1(3@6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#147#9#148#66#6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#155#2#155#2#17@0"300948143#18446744073709551615#0#0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#0"0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#0#0#0#0#1(3@6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#155#2#155#2#6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#156#3#156#8#21@114"Object allocated on line 147 is no longer referenced after this point and has a retain count of +1 (object leaked)300948143#18446744073709551615#0#0(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#156#3#0#0#0"1(6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#156#3#156#8#114"Object allocated on line 147 is no longer referenced after this point and has a retain count of +1 (object leaked)6@65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m167291826#156#3#0#0#36"Memory (Core Foundation/Objective-C)0(4"Leak0#0#65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m8606835168#1316"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/FoundationWebClient.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m
+s300948142.753403
+e300948142.983363
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m
+lSLF07#2@61"Analyze /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m300948142#300948142#0(0"0(0#0#53"/Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m8606752608#1292"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/GUIMain.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m
+s300948142.752571
+e300948143.243527
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:158:14:{158:20-158:30}: warning: Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'
+o         if ((err = ResError()) == noErr) 
+o              ^     ~~~~~~~~~~
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:178:4:{178:4-178:13}: warning: Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null.
+o                         *outError = [NSError errorWithDomain: NSOSStatusErrorDomain
+o                         ^~~~~~~~~
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:171:5:{171:5-171:14}: warning: Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null.
+o                                 *outError = [NSError errorWithDomain: NSOSStatusErrorDomain
+o                                 ^~~~~~~~~
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:424:27: warning: Potential leak of an object allocated on line 424
+o         NSMenu* contextualMenu = [[NSMenu alloc] initWithTitle: @"Spelling Tree Contextual Menu"];
+o                                  ^
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:829:26: warning: Potential leak of an object allocated on line 829
+o         NSMutableString* html = [[NSMutableString alloc] init];
+o                                 ^
+o5 warnings generated.
+lSLF07#2@64"Analyze /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948142#300948143#0(1500"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:158:14:{158:20-158:30}: warning: Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'         if ((err = ResError()) == noErr)               ^     ~~~~~~~~~~/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:178:4:{178:4-178:13}: warning: Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null.                         *outError = [NSError errorWithDomain: NSOSStatusErrorDomain                         ^~~~~~~~~/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:171:5:{171:5-171:14}: warning: Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null.                                 *outError = [NSError errorWithDomain: NSOSStatusErrorDomain                                 ^~~~~~~~~/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:424:27: warning: Potential leak of an object allocated on line 424         NSMenu* contextualMenu = [[NSMenu alloc] initWithTitle: @"Spelling Tree Contextual Menu"];                                  ^/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:829:26: warning: Potential leak of an object allocated on line 829         NSMutableString* html = [[NSMutableString alloc] init];                                 ^5 warnings generated.5(0@115"Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'300948143#18446744073709551615#0#1(21@115"Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#14#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#20#158#29#115"Although the value stored to 'err' is used in the enclosing expression, the value is never actually read from 'err'6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#14#0#0#10"Dead store0(22"Dead nested assignment0@139"Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null300948143#18446744073709551615#0#9(17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#148#2#148#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#150#2#150#2#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#150#2#150#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#154#2#154#2#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#154#2#154#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#156#9#156#9#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#156#9#156#9#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#9#158#9#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#9#158#9#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#160#13#160#13#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#160#13#160#13#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#161#4#161#4#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#161#4#161#4#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#170#5#170#5#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#170#5#170#5#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#171#5#171#13#21@139"Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#171#5#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#171#5#171#13#139"Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#171#5#0#0#26"Coding conventions (Apple)0(26"NSError** null dereference0@139"Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null300948143#18446744073709551615#0#6(17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#148#2#148#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#150#2#150#2#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#150#2#150#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#154#2#154#2#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#154#2#154#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#156#9#156#9#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#156#9#156#9#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#9#158#9#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#158#9#158#9#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#178#4#178#12#21@139"Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#178#4#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#178#4#178#12#139"Potential null dereference.  According to coding standards in 'Creating and Returning NSError Objects' the parameter 'outError' may be null6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#178#4#0#0#26"Coding conventions (Apple)0(26"NSError** null dereference0@49"Potential leak of an object allocated on line 424300948143#18446744073709551615#0#4(17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#424#2#424#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#424#27#424#90#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#424#27#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#424#27#424#90#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#424#27#424#90#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#442#1#442#1#21@114"Object allocated on line 424 is no longer referenced after this point and has a retain count of +1 (object leaked)300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#442#1#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#442#1#442#1#114"Object allocated on line 424 is no longer referenced after this point and has a retain count of +1 (object leaked)6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#442#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0@49"Potential leak of an object allocated on line 829300948143#18446744073709551615#0#6(17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#829#2#829#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#829#26#829#55#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#829#26#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#829#26#829#55#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#829#26#829#55#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#845#2#845#2#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#845#2#845#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#899#2#899#2#17@0"300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#0"0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#0#0#0#0#1(3@6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#899#2#899#2#6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#906#1#906#1#21@114"Object allocated on line 829 is no longer referenced after this point and has a retain count of +1 (object leaked)300948143#18446744073709551615#0#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#906#1#0#0#0"1(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#906#1#906#1#114"Object allocated on line 829 is no longer referenced after this point and has a retain count of +1 (object leaked)6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m153448738#906#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m8601407648#1298"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/MyDocument.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m
+s300948143.187707
+e300948143.332539
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m
+lSLF07#2@80"Analyze /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m300948143#300948143#0(0"0(0#0#72"/Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m8605457952#1330"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/NSAppleScript+HandlerCalls.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/Page.m
+s300948142.753994
+e300948142.994644
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/Page.m
+lSLF07#2@58"Analyze /Users/james/Programming/Cocoa/DreamCatcher/Page.m300948142#300948142#0(0"0(0#0#50"/Users/james/Programming/Cocoa/DreamCatcher/Page.m8608724992#1286"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/Page.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Page.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m
+s300948142.994751
+e300948143.169640
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m
+lSLF07#2@75"Analyze /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m300948142#300948143#0(0"0(0#0#67"/Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m8604417920#1320"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/PreferencesController.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/Response.m
+s300948142.755986
+e300948142.988013
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/Response.m
+lSLF07#2@62"Analyze /Users/james/Programming/Cocoa/DreamCatcher/Response.m300948142#300948142#0(0"0(0#0#54"/Users/james/Programming/Cocoa/DreamCatcher/Response.m8608542400#1294"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/Response.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Response.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m
+s300948142.988134
+e300948143.153946
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m
+lSLF07#2@63"Analyze /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m300948142#300948143#0(0"0(0#0#55"/Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m8605592160#1296"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/RobotsTxt.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m
+s300948142.991305
+e300948143.388299
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m
+lSLF07#2@66"Analyze /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m300948142#300948143#0(0"0(0#0#58"/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m8604681504#1302"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Spellchecker.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/Spider.m
+s300948142.754602
+e300948143.039501
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/Spider.m
+o/Users/james/Programming/Cocoa/DreamCatcher/Spider.m:332:29: warning: Potential leak of an object allocated on line 332
+o                 robotsTxt = [[RobotsTxt alloc] initWithRootURL: 
+o                             ^
+o1 warning generated.
+lSLF07#2@60"Analyze /Users/james/Programming/Cocoa/DreamCatcher/Spider.m300948142#300948143#0(238"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m:332:29: warning: Potential leak of an object allocated on line 332                 robotsTxt = [[RobotsTxt alloc] initWithRootURL:                              ^1 warning generated.1(0@49"Potential leak of an object allocated on line 332300948143#18446744073709551615#0#10(17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#319#2#319#2#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#324#2#324#2#17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#324#2#324#2#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#325#9#325#9#17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#325#9#325#9#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#330#13#330#13#17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#330#13#330#13#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#331#13#331#13#17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#331#13#331#13#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#332#17#332#17#17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#332#17#332#17#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#332#29#335#71#21@78"Method returns an Objective-C object with a +1 retain count (owning reference)300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#332#29#0#0#0"1(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#332#29#335#71#78"Method returns an Objective-C object with a +1 retain count (owning reference)17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#332#29#335#71#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#338#13#338#13#17@0"300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#0"0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#0#0#0#0#1(3@6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#338#13#338#13#6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#345#1#345#1#21@114"Object allocated on line 332 is no longer referenced after this point and has a retain count of +1 (object leaked)300948143#18446744073709551615#0#0(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#345#1#0#0#0"1(6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#345#1#345#1#114"Object allocated on line 332 is no longer referenced after this point and has a retain count of +1 (object leaked)6@52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m170009348#345#1#0#0#36"Memory (Core Foundation/Objective-C)0(23"Leak of returned object0#0#52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m8607024608#1290"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/Spider.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/Spider.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m
+s300948143.243779
+e300948143.376579
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m
+lSLF07#2@68"Analyze /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m300948143#300948143#0(0"0(0#0#60"/Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m8601409408#1306"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/TidyHTMLParser.plist0#
+
+CAnalyze /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m
+s300948142.983468
+e300948143.137420
+r1
+xAnalyze
+x/Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m
+lSLF07#2@73"Analyze /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m300948142#300948143#0(0"0(0#0#65"/Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m8606957600#1316"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h --analyze /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/StaticAnalyzer/normal/i386/UnknownTypeResponse.plist0#
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies300949328#300949328#0(284"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'DreamCatcher-Info.plist'.[WARN]Warning: Multiple build commands for output file /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns2(22@112"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'DreamCatcher-Info.plist'.300949328#18446744073709551615#0#0(1@0"0(22@158"Warning: Multiple build commands for output file /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns300949328#18446744073709551615#0#0(1@0"0(0#1#0"8619922368#0"0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ConditionVariable.o /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.053744
+e300948130.600393
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ConditionVariable.o
+x/Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m300948130#300948130#0(0"0(0#0#63"/Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m8602119648#1258"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/ConditionVariable.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ConditionVariable.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCProperties.o /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.570886
+e300948130.723039
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCProperties.o
+x/Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m300948130#300948130#0(0"0(0#0#58"/Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m8604397152#1248"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/DCProperties.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCProperties.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCTableView.o /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.636359
+e300948130.820530
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCTableView.o
+x/Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m300948130#300948130#0(0"0(0#0#57"/Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m8602126016#1246"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/DCTableView.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCTableView.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCUtil.o /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.726352
+e300948130.936251
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCUtil.o
+x/Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m300948130#300948130#0(0"0(0#0#52"/Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m8602220256#1236"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/DCUtil.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DCUtil.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFileTypeDrag.o /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.772556
+e300948131.000506
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFileTypeDrag.o
+x/Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m300948130#300948131#0(0"0(0#0#60"/Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m8602102528#1252"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/DSFileTypeDrag.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFileTypeDrag.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFolderDrag.o /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948382.758428
+e300948383.091313
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFolderDrag.o
+x/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m: In function '-[DSFolderDrag validateMenuItem:]':
+o/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:165: warning: type 'id <NSMenuItem>' does not conform to the 'NSCopying' protocol
+o/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:166: warning: '-action' not found in protocol(s)
+lSLF07#2@66"Compile /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m300948382#300948383#0(358"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m: In function '-[DSFolderDrag validateMenuItem:]':/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:165: warning: type 'id <NSMenuItem>' does not conform to the 'NSCopying' protocol/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m:166: warning: '-action' not found in protocol(s)2(22@67"Type 'id <NSMenuItem>' does not conform to the 'NSCopying' protocol300948383#109#141#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m300948375#165#0#165#0#45"type '*' does not conform to the '*' protocol0(22@34"'-action' not found in protocol(s)300948383#250#108#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m300948375#166#0#166#0#28"'*' not found in protocol(s)0(0#0#58"/Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m8622385600#1248"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/DSFolderDrag.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DSFolderDrag.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/EntityReference.o /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.723174
+e300948130.985403
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/EntityReference.o
+x/Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m300948130#300948130#0(0"0(0#0#61"/Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m8604320832#1254"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/EntityReference.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/EntityReference.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ErrorResponse.o /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.055157
+e300948130.569815
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ErrorResponse.o
+x/Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m300948130#300948130#0(0"0(0#0#59"/Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m8605067776#1250"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/ErrorResponse.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/ErrorResponse.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/FoundationWebClient.o /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948442.813221
+e300948442.985557
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/FoundationWebClient.o
+x/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m300948442#300948442#0(0"0(0#0#65"/Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m8593660672#1262"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/FoundationWebClient.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/FoundationWebClient.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/GUIMain.o /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.051879
+e300948130.555893
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/GUIMain.o
+x/Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@61"Compile /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m300948130#300948130#0(0"0(0#0#53"/Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m8605282816#1238"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/GUIMain.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/GUIMain.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/MyDocument.o /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948406.954823
+e300948407.300982
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/MyDocument.o
+x/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m: In function 'alertBox':
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:18: warning: 'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:18: warning: 'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m: In function '-[MyDocument toggleShowAllURLS:]':
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:794: warning: '-setTitle:' not found in protocol(s)
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:798: warning: '-setTitle:' not found in protocol(s)
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m: In function '-[MyDocument validateUserInterfaceItem:]':
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:810: warning: '-setTitle:' not found in protocol(s)
+o/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:812: warning: '-setTitle:' not found in protocol(s)
+lSLF07#2@64"Compile /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948406#300948407#0(1178"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m: In function 'alertBox':/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:18: warning: 'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:18: warning: 'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m: In function '-[MyDocument toggleShowAllURLS:]':/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:794: warning: '-setTitle:' not found in protocol(s)/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:798: warning: '-setTitle:' not found in protocol(s)/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m: In function '-[MyDocument validateUserInterfaceItem:]':/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:810: warning: '-setTitle:' not found in protocol(s)/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m:812: warning: '-setTitle:' not found in protocol(s)6(22@149"'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)300948407#82#220#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948400#18#0#18#0#33"'*' is deprecated (declared at *)0(22@149"'stringWithCString:' is deprecated (declared at /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:364)300948407#302#220#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948400#18#0#18#0#33"'*' is deprecated (declared at *)0(22@37"'-setTitle:' not found in protocol(s)300948407#628#109#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948400#794#0#794#0#28"'*' not found in protocol(s)0(22@37"'-setTitle:' not found in protocol(s)300948407#737#109#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948400#798#0#798#0#28"'*' not found in protocol(s)0(22@37"'-setTitle:' not found in protocol(s)300948407#960#109#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948400#810#0#810#0#28"'*' not found in protocol(s)0(22@37"'-setTitle:' not found in protocol(s)300948407#1069#109#0(6@56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m300948400#812#0#812#0#28"'*' not found in protocol(s)0(0#0#56"/Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m8621123840#1244"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/MyDocument.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/MyDocument.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/NSAppleScript+HandlerCalls.o /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.820658
+e300948130.990187
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/NSAppleScript+HandlerCalls.o
+x/Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m300948130#300948130#0(0"0(0#0#72"/Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m8600666464#1276"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/NSAppleScript+HandlerCalls.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/NSAppleScript+HandlerCalls.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Page.o /Users/james/Programming/Cocoa/DreamCatcher/Page.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.052502
+e300948130.571834
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Page.o
+x/Users/james/Programming/Cocoa/DreamCatcher/Page.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@58"Compile /Users/james/Programming/Cocoa/DreamCatcher/Page.m300948130#300948130#0(0"0(0#0#50"/Users/james/Programming/Cocoa/DreamCatcher/Page.m8607236096#1232"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/Page.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Page.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/PreferencesController.o /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.600522
+e300948130.832793
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/PreferencesController.o
+x/Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m300948130#300948130#0(0"0(0#0#67"/Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m8603673632#1266"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/PreferencesController.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/PreferencesController.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Response.o /Users/james/Programming/Cocoa/DreamCatcher/Response.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.054386
+e300948130.569621
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Response.o
+x/Users/james/Programming/Cocoa/DreamCatcher/Response.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@62"Compile /Users/james/Programming/Cocoa/DreamCatcher/Response.m300948130#300948130#0(0"0(0#0#54"/Users/james/Programming/Cocoa/DreamCatcher/Response.m8604850176#1240"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/Response.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Response.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/RobotsTxt.o /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.569925
+e300948130.773899
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/RobotsTxt.o
+x/Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m300948130#300948130#0(0"0(0#0#55"/Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m8601162240#1242"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/RobotsTxt.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/RobotsTxt.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spellchecker.o /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300949324.180746
+e300949324.483990
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spellchecker.o
+x/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m: In function '+[Spellchecker languages]':
+o/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m:172: warning: '-representedObject' not found in protocol(s)
+o/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m:172: warning: '-title' not found in protocol(s)
+lSLF07#2@66"Compile /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m300949324#300949324#0(327"/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m: In function '+[Spellchecker languages]':/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m:172: warning: '-representedObject' not found in protocol(s)/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m:172: warning: '-title' not found in protocol(s)2(22@45"'-representedObject' not found in protocol(s)300949324#101#119#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m300949158#172#0#172#0#28"'*' not found in protocol(s)0(22@33"'-title' not found in protocol(s)300949324#220#107#0(6@58"/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m300949158#172#0#172#0#28"'*' not found in protocol(s)0(0#0#58"/Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m8619858560#1248"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/Spellchecker.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spellchecker.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spider.o /Users/james/Programming/Cocoa/DreamCatcher/Spider.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300949324.179542
+e300949324.364417
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spider.o
+x/Users/james/Programming/Cocoa/DreamCatcher/Spider.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/james/Programming/Cocoa/DreamCatcher/Spider.m300949324#300949324#0(0"0(0#0#52"/Users/james/Programming/Cocoa/DreamCatcher/Spider.m8616908256#1236"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/Spider.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/Spider.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/TidyHTMLParser.o /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.832917
+e300948131.022187
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/TidyHTMLParser.o
+x/Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m300948130#300948131#0(0"0(0#0#60"/Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m8601095200#1252"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/TidyHTMLParser.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/TidyHTMLParser.o0#
+
+CCompileC build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/UnknownTypeResponse.o /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948130.556009
+e300948130.726189
+r1
+xCompileC
+xbuild/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/UnknownTypeResponse.o
+x/Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m300948130#300948130#0(0"0(0#0#65"/Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m8605475008#1262"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -include /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h -c /Users/james/Programming/Cocoa/DreamCatcher/UnknownTypeResponse.m -o /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/UnknownTypeResponse.o0#
+
+CCopyPlistFile /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher-Info.plist DreamCatcher-Info.plist
+s300948127.847631
+e300948128.014260
+r1
+xCopyPlistFile
+x/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher-Info.plist
+xDreamCatcher-Info.plist
+lSLF07#2@28"Copy DreamCatcher-Info.plist300948127#300948128#0(0"0(0#0#67"/Users/james/Programming/Cocoa/DreamCatcher/DreamCatcher-Info.plist8604677024#267"    cd /Users/james/Programming/Cocoa/DreamCatcher    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist DreamCatcher-Info.plist --outdir /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Resources0#
+
+CCpResource build/Debug/DreamCatcher.app/Contents/Resources/Credits.rtf Credits.rtf
+r0
+
+CCpResource build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns DreamCatcher.icns
+r0
+
+CLd /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/MacOS/DreamCatcher normal i386
+s300949324.484058
+e300949324.523603
+r1
+xLd
+x/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/MacOS/DreamCatcher
+xnormal
+xi386
+lSLF07#2@105"Link /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/MacOS/DreamCatcher300949324#300949324#0(0"0(0#0#0"8620071488#755"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -filelist /Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/Objects-normal/i386/DreamCatcher.LinkFileList -mmacosx-version-min=10.4 -framework Foundation -framework AppKit -framework WebKit -framework CoreFoundation -framework Quartz -framework Cocoa -framework AGRegex -o /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/MacOS/DreamCatcher0#
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Dictionaries.html" "English.lproj/English.lproj/DreamCatcher Help/Dictionaries.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/DreamCatcher Help idx" "English.lproj/English.lproj/DreamCatcher Help/DreamCatcher Help idx"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/DreamCatcher Help.helpindex" "English.lproj/English.lproj/DreamCatcher Help/DreamCatcher Help.helpindex"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Introduction.html" "English.lproj/English.lproj/DreamCatcher Help/Introduction.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/Reference.html" "English.lproj/English.lproj/DreamCatcher Help/Reference.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/correctingerrors.html" "English.lproj/English.lproj/DreamCatcher Help/correctingerrors.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/empty.html" "English.lproj/English.lproj/DreamCatcher Help/empty.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/help.css" "English.lproj/English.lproj/DreamCatcher Help/help.css"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/ignoringerrors.html" "English.lproj/English.lproj/DreamCatcher Help/ignoringerrors.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/modifyingthedictionary.html" "English.lproj/English.lproj/DreamCatcher Help/modifyingthedictionary.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/preferences.html" "English.lproj/English.lproj/DreamCatcher Help/preferences.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/spellchecking.html" "English.lproj/English.lproj/DreamCatcher Help/spellchecking.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/top.html" "English.lproj/English.lproj/DreamCatcher Help/top.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/usingdreamcatcher.html" "English.lproj/English.lproj/DreamCatcher Help/usingdreamcatcher.html"
+r0
+
+CPBXCp "build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher Help/usingdreamcatcherframe.html" "English.lproj/English.lproj/DreamCatcher Help/usingdreamcatcherframe.html"
+r0
+
+CPBXCp build/Debug/DreamCatcher.app/Contents/Frameworks/AGRegex.framework AGRegex.framework
+r0
+
+CPBXCp build/Debug/DreamCatcher.app/Contents/Resources/DreamCatcher.icns DreamCatcher.icns
+r0
+
+CPBXCp build/Debug/DreamCatcher.app/Contents/Resources/HelpImages/Icon.png English.lproj/HelpImages/Icon.png
+r0
+
+CProcessInfoPlistFile /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Info.plist DreamCatcher-Info.plist
+s300948127.542912
+e300948127.847450
+r1
+xProcessInfoPlistFile
+x/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Info.plist
+xDreamCatcher-Info.plist
+lSLF07#2@31"Process DreamCatcher-Info.plist300948127#300948127#0(0"0(0#0#67"/Users/james/Programming/Cocoa/DreamCatcher/DreamCatcher-Info.plist27303360510885984#340"    cd /Users/james/Programming/Cocoa/DreamCatcher    builtin-infoPlistUtility DreamCatcher-Info.plist -genpkginfo /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h.pth /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
+s300948142.027111
+e300948142.751027
+r1
+xProcessPCH
+x/var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h.pth
+x/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.analyzer
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h300948142#300948142#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h8608055040#1189"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fasm-blocks -mmacosx-version-min=10.4 -gdwarf-2 -fvisibility=hidden -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -c /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-apcdqsoxjoqqbockmqrywoklljoy/AppKit.h.pth0#
+
+CProcessPCH /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h.gch /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h normal i386 objective-c com.apple.compilers.gcc.4_2
+s300948128.014453
+e300948130.050964
+r1
+xProcessPCH
+x/var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h.gch
+x/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@101"Precompile /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h300948128#300948130#0(0"0(0#0#90"/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h3419194681344878080#1153"    cd /Users/james/Programming/Cocoa/DreamCatcher    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -mdynamic-no-pic -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DreamCatcher.hmap -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/james/Programming/Cocoa/DreamCatcher/build/Debug -F/Users/james/Programming/Cocoa/DreamCatcher -I/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/include -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources/i386 -I/Users/james/Programming/Cocoa/DreamCatcher/build/DreamCatcher.build/Debug/DreamCatcher.build/DerivedSources -c /Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.h -o /var/folders/Zl/Zl6zZUbWFQ473w2D5RgmH++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/AppKit-eiocumxflftbdbhiynnmyrymjnce/AppKit.h.gch0#
+
+CStripNIB /Users/james/Programming/Cocoa/DreamCatcher/English.lproj/MainMenu.nib
+r0
+
+CStripNIB /Users/james/Programming/Cocoa/DreamCatcher/English.lproj/MyDocument.nib
+r0
+
+CStripNIB /Users/james/Programming/Cocoa/DreamCatcher/English.lproj/Preferences.nib
+r0
+
+CTouch /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app
+s300949324.524158
+e300949324.526152
+r1
+xTouch
+x/Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app
+lSLF07#2@78"Touch /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app300949324#300949324#0(0"0(0#0#0"8619874816#146"    cd /Users/james/Programming/Cocoa/DreamCatcher    /usr/bin/touch -c /Users/james/Programming/Cocoa/DreamCatcher/build/Debug/DreamCatcher.app0#
+

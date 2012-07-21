@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'DreamCatcher' target in the 'DreamCatcher' project.
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

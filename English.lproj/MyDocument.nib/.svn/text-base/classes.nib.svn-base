@@ -1,0 +1,36 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                beginButtonAction = id; 
+                cancelButtonAction = id; 
+                spellingTreeAction = id; 
+                urlEntryBoxAction = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                beginButton = id; 
+                cancelButton = id; 
+                docView = id; 
+                docWindow = id; 
+                loadingPageLabel = id; 
+                loadingPageProgressSpinner = id; 
+                progressBox = id; 
+                progressSpinner = id; 
+                progressWindow = id; 
+                resultsWindow = id; 
+                spellingTree = id; 
+                urlDisplayBox = id; 
+                urlEntryBox = id; 
+                urlEntryWindow = id; 
+                webTabView = id; 
+                webView = id; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = NSSegmentedControl; LANGUAGE = ObjC; SUPERCLASS = NSControl; }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,18 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                addWord = id; 
+                fixMisspelling = id; 
+                ignore = id; 
+                ignoreAll = id; 
+                showPreferences = id; 
+                toggleShowAllURLS = id; 
+            }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

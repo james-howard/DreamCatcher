@@ -1,0 +1,27 @@
+{
+    IBClasses = (
+        {CLASS = DCTableView; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = DSFileTypeDrag; LANGUAGE = ObjC; SUPERCLASS = DSFolderDrag; }, 
+        {
+            ACTIONS = {paste = id; }; 
+            CLASS = DSFolderDrag; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSImageView; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {addWord = id; apply = id; cancel = id; removeWord = id; }; 
+            CLASS = PreferencesController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                addedWordsList = id; 
+                encodingChooser = id; 
+                languageChooser = id; 
+                maxSpiderDepthField = id; 
+                scriptHandlerWell = id; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,39 @@
+Version 1.2.1
+* Two html parsers are now available: the classic regex based DreamCatcher
+  parser and now the new XML Tidy based parser.  The default remains the
+  DreamCatcher parser, but you can switch over to Tidy via the preferences.
+
+  Tidy is stricter and probably more "correct" than the old DreamCatcher 
+  parser but as a consequence of that it does not handle malformed pages 
+  as well.  Both parsers seem to be about the same speed, but Tidy seems 
+  to use less memory so Tidy might be the better choice if you need to scan
+  huge pages.
+
+Version 1.2
+* DreamCatcher now has the ability to not just find misspellings, but to fix them
+  too, through the help of an Applescript handler.  A sample handler
+  is included that integrates with BBEdit and Mac OS X's personal web sharing.
+  See the built in documentation (under the Help menu in DreamCatcher) for more
+  information on this feature.
+* The final spellchecking step is now run in a background thread.
+* DreamCatcher is now built as a universal binary. Update: I tried it on
+  an Intel mac and it does work :).
+
+Version 1.1.1
+* Added preference to set default text encoding to use when the web server
+  does not return a Content-Encoding header and the content is not in the
+  assumed format of ISO-8859-1.  This fixes the "DreamCatcher
+  doesn't find any pages and doesn't return any errors" problem.
+
+Version 1.1
+* Added ability to ignore or add words.
+* Added preferences dialog that controls added words list as well
+  as search depth.
+* Added toggle to see list of all URLs found during spidering, not just
+  the ones that contain misspellings.
+* Added support for file:// type URLs.
+* HTML entities are now handled correctly.
+* Various and sundry fixes for issues that arose in real world usage.
+
+Version 1.0
+* Initial Release

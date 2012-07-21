@@ -1,0 +1,163 @@
+
+.LightPurple {
+color: MediumPurple;
+}
+
+.DarkPurple {
+color: Indigo;
+}
+
+.LightGreen {
+color: LimeGreen;
+}
+
+.DarkGreen {
+color: Green;
+}
+
+.Red {
+color: Red;
+}
+
+.Gray {
+color: Gray;
+}
+
+h1 {
+    font-size: x-large;
+}
+
+h2 {
+    padding: 0px;
+    margin: 3px;
+	font-size: large;
+}
+
+.Bold {
+	font-weight: bold;
+}
+
+.Verbatim {
+	font-weight: bold;
+	font-family: "Courier", monospace;
+}
+
+.UI {
+    font-weight: bold;
+    font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+div.top-left {
+    text-align: center;
+	float: left;
+    padding: 18px;
+	width: 200px;
+	border-right: gray 1px solid;
+	font-family: Helvetica, Arial;
+}
+
+.top-left a:link{color: gray; text-decoration: none; font-size: small;}
+.top-left a:hover {text-decoration: underline;}
+
+.top-right a:link{color: gray; text-decoration: none;}
+.top-right a:hover {text-decoration: underline;}
+	
+.top-right {
+	float: right;
+	padding: 18px;
+	width: 200px;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+}
+	
+.top-all {
+	width: 480px;
+	margin-top: 30px;
+}
+	
+.toc-left {
+	margin: 6px;
+	font-family: Helvetica, Arial;
+	font-size: small;
+}
+
+.toc-left a:link{color: gray; text-decoration: none;}
+.toc-left a:hover {text-decoration: underline;}
+.toc-left a:active {color: blue; text-decoration: underline;}
+
+.toc-right a:link{color: gray; text-decoration: none;}
+.toc-right a:hover {text-decoration: underline;}
+
+.toc-right {
+	margin: 6px;
+	font-family: Helvetica, Arial;
+	font-size: small;
+}
+
+.Destination {
+    margin: 4px;
+	font-family: Helvetica, Arial;
+	font-size: small;
+}
+
+.Box {
+    margin-top: 8px;
+    margin-bottom: 8px;
+	padding-right: 24px;
+	padding-top: 0px !important;
+	padding-bottom: 14px;
+	background-color: #EEEEEE;
+	border: #444444 1px solid;
+    #clear: both;
+}
+
+div.Pro {
+    #border: #666699 1px dashed;
+    background: url("../../HelpImages/Pro-Tag.png") top right no-repeat;
+    background-color: #EEEEFF;
+    padding-bottom: 12px;
+}
+
+div.item {
+    margin-top: 4px;
+    padding-top: 14px;
+    margin-left: 9px;
+    padding-left: 9px;
+    padding-right: 9px;
+    #border: 1px black solid;
+}
+
+.pro-tag {
+    width: 32;
+    height: 13;
+    padding: 3px;
+    vertical-align: top;
+    float: right;
+}
+
+ul.steps {
+	list-style-type: square;
+}
+
+li.step {
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+
+img.inline-image {
+    vertical-align: middle;
+}
+
+img.screenshot {
+    border: gray 1px dotted;
+}
+
+td.data-cell {
+    font-size: small;
+}
+
+th.data-head {
+    font-weight: bold;
+    background-color: #EEE;
+}
+	

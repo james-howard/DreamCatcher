@@ -1,0 +1,61 @@
+<html>
+
+    <head>
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+		<title>Correcting Errors</title>
+		
+		
+		<meta name="description" content="">
+        <link rel="stylesheet" href="help.css" type="text/css">
+    </head>
+    <body>
+
+        <div class="Destination">
+        <h2>Correcting Errors</h2>
+        
+                        <div class="item "><span class="">DreamCatcher allows you to not only identify spelling errors
+                        in a Web site but also correct them using Applescripts. DreamCatcher comes with an example script that is set up 
+                        for correcting errors using BBEdit 8.  However, you can modify the script to use any
+                        editor (that supports Applescript) that you like. For more information refer to <a href="preferences.html">Preferences</a>. Please keep
+                        in mind that correcting errors in DreamCatcher is an advanced feature that should only be used if you are familiar with Applescript
+                        and advanced Web development.</span></div>
+                        
+                        <div class="item "><span class="">To correct spelling errors found by DreamCatcher, you must first make sure that the error handling script
+                        is set up correctly and is loaded into the DreamCatcher preferences. The sample error handler script allows you to make corrections to Web sites stored
+                        locally on your machine in the <span class="UI">/Library/WebServer/Documents</span> directory.</span></div>
+                        
+                 		<div class="item "><span class="">To set up the error handling script:</span></div>
+
+                        <div class="item Box">                            
+                        <ol><li><div class="item "><span class="">Locate the <span class="UI">ErrorHandler.scpt</span> Apple Script that downloaded with 
+                        DreamCatcher.</span> </div></li>
+                            <li><div class="item "><span class="">Open DreamCatcher preferences by selecting <span class="UI">DreamCatcher > Preferences</span>.</span></div></li>
+                            <li><div class="item "><span class="">Drag the ErrorHandler.scpt Apple script into the Script Well at the bottom of the DreamCatcher
+                            preferences pane.</span>  </div></li>
+                            <li><div class="item "><span class="">Turn on Personal Web Sharing in the Apple System Preferences.</span></div></li>
+                        </div>
+                        
+                        <div class="item "><span class=""><span class="Bold">Note:</span>You can drag a custom script into DreamCatcher preferences if you want
+                        to modify how DreamCatcher corrects errors.</span></div>
+                        
+                        <div class="item"><span class="">After you have the error handling script set up correctly, type the Web address for a Web site located in the 
+                        <span class="UI">/Library/WebServer/Documents</span> directory (typically http://localhost). 
+                        From the results list, right-click a misspelled word and select <span class="UI">
+                        Fix Misspelling</span>. BBEdit opens the file with the misspelled word highlighted. Select the correct word in the <span class="UI">
+                        Choose Word</span>
+                        dialog box and click <span class="UI">OK</span>. 
+                        You can then select to Replace All to correct all instances in the file, Replace One to just change that particular
+                        instance, or Replace None to cancel the correction. After the correction is made, the file is saved and closed and you 
+                        return to DreamCatcher.
+                        Keep in mind that all of these actions are dictated by the error handler script and can be modified as you see fit. For some tips about
+                        how the script works refer to the <a href="reference.html">Reference</a> section.</span></div>
+                                          
+                        <div class="item "><span class=""><span class="Bold">Important</span>The supplied error handler does not work if you are using URL re-writing,
+                        however, as always, you can modify the error handling script to match the URL re-writing you are using.</span></div>
+                   
+
+        </div>
+        
+
+    </body>
+</html>
